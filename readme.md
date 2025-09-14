@@ -1,27 +1,25 @@
-# Python Project: Simple Contact Book
+# Python Projekt: Egyszerű Névjegykatalógus
 
-## [span_4](start_span)Hallgató (Student)[span_4](end_span)
+## Hallgató
 Bernscherer Antal
 
-## [span_5](start_span)Feladat leírása (Project Description)[span_5](end_span)
-This is a simple graphical contact book application created for the "Szkript nyelvek Python" course. The program allows the user to enter a name, phone number, and email address. These contacts can be added to a list displayed on the screen. The user also has the option to save the entire contact list to a `contacts.csv` file. The project adheres to all mandatory requirements, including the use of custom modules, classes, functions, and a graphical interface.
+## Feladat leírása
+Ez egy egyszerű, grafikus felületű névjegykatalógus alkalmazás, amely a "Szkript nyelvek Python" kurzusra készült. A program lehetővé teszi a felhasználó számára, hogy nevet, telefonszámot és e-mail címet rögzítsen. Ezek a névjegyek egy listában jelennek meg a képernyőn. A felhasználónak lehetősége van a teljes névjegylistát egy `contacts.csv` nevű fájlba menteni. A projekt megfelel minden kötelező követelménynek, beleértve a saját modul, osztály, függvény és a grafikus felület használatát.
 
-## [span_6](start_span)Modulok és a modulokban használt függvények (Modules and Functions Used)[span_6](end_span)
+## Modulok és a modulokban használt függvények
 
-* **Tanult modul (Learned module): `csv`**
-    * `csv.writer()`: Creates a writer object to convert user data into delimited strings.
-    * `writer.writerow()`: Writes a single row to the CSV file.
-    * `writer.writerows()`: Can be used to write multiple rows.
+* **Tanult modul: `csv`**
+    * `csv.writer()`: Egy író objektumot hoz létre, amely a felhasználói adatokat elválasztójelekkel tagolt szöveggé alakítja.
+    * `writer.writerow()`: Egyetlen sort ír a CSV fájlba.
 
-* **Bemutatandó modul (Demonstrated module): `tkinter.messagebox`**
-    * `messagebox.showwarning()`: Displays a warning message box.
-    * `messagebox.showinfo()`: Displays an informational message box.
-    * `messagebox.askyesno()`: Displays a message box with "Yes" and "No" buttons and returns a boolean.
+* **Bemutatandó modul: `tkinter.messagebox`**
+    * `messagebox.showwarning()`: Egy figyelmeztető üzenetablakot jelenít meg.
+    * `messagebox.showinfo()`: Egy tájékoztató üzenetablakot jelenít meg.
+    * `messagebox.askyesno()`: Egy "Igen" és "Nem" gombokat tartalmazó üzenetablakot jelenít meg, és logikai (boolean) értéket ad vissza.
 
-* **Saját modul (Custom module): `contact_module_BA`**
-    * `format_contact_for_display_BA()`: A custom function to format contact details for display.
+* **Saját modul: `contact_module_BA`**
+    * `format_contact_for_display_BA()`: Egy saját függvény, amely a névjegy adatait formázza a listában való megjelenítéshez.
 
-## [span_7](start_span)Osztály(ok) (Class(es))[span_7](end_span)
+## Osztály(ok)
 
-* **`contact_module_BA.Contact_BA`**: A custom class representing a contact, containing attributes for name, phone, and email. The class name includes the student's monogram.
-
+* **`contact_module_BA.Contact_BA`**: Egy saját osztály, amely egy névjegyet reprezentál. Attribútumai a név, telefonszám és e-mail cím. Az osztály neve tartalmazza a hallgató monogramját.
